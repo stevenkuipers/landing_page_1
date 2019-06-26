@@ -1,0 +1,154 @@
+
+/* Variable Overrides - ! these must come before bootstrap import !
+----------------------------*/
+
+$primary: yellow;
+$danger: purple;
+
+@import "~bootstrap/scss/bootstrap";
+
+
+
+/* Global
+----------------------------*/
+
+body {
+  margin-bottom: 50px;
+}
+
+section {
+  margin: 30px 0;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+/* Hero
+----------------------------*/
+
+#hero {
+  background-color: #93291e;
+  background-image: linear-gradient(to right, rgba(#ed213a, .4), rgba(#93291e, .9)), url(https://source.unsplash.com/0DyZE6aLD-8/1600x900);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  color: ivory;
+}
+
+.hero__header {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.cta__sign-up {
+  background: rgba($primary, .6);
+  padding: 2vw;
+  margin-bottom: -4.5rem;
+}
+
+/* Second Section
+----------------------------*/
+
+.second-section {
+  background: $dark;
+  color: ivory;
+
+  &__card {
+    background: inherit;
+    border: unset;
+  }
+}
+
+.card__icon {
+  font-size: 2rem;
+}
+
+/* Navigation
+----------------------------*/
+
+.nav-main {
+  margin-bottom: 30px;
+}
+
+/* Carousel
+----------------------------*/
+
+#carousel {
+  .carousel-inner {
+    .carousel-item {
+      border-radius: 6px;
+    }
+
+    img {
+      border-radius: 6px;
+    }
+  }
+}
+
+/* Jumbotron
+-----------------------------*/
+
+.jumbotron {
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+/* Blockquote
+-----------------------------*/
+
+#blockquote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.blockquote {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 4px solid #efefef;
+}
+
+/* Album
+-----------------------------*/
+
+#photos {
+  margin-bottom: 0;
+}
+
+.album {
+  .album-item {
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/* Progress Bars
+-----------------------------*/
+
+.progress {
+  margin-bottom: 20px;
+}
+
+/* Contact Form
+-----------------------------*/
+
+#contact-form {
+  margin-top: 40px;
+}
+
+label {
+  font-weight: 700;
+}
+
+/* Tab Panel
+-----------------------------*/
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 1rem;
+}
