@@ -32,7 +32,7 @@
     "path": "^0.12.7",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
-    "sharp": "^0.22.0",
+    "sharp": "^0.30.5",
     "tar": ">=4.4.2",
     "tiny-glob": "^0.2.6",
     "trash": "^5.2.0",
